@@ -1,0 +1,22 @@
+# Application definition
+
+APPS = ["a12n", "app", "users", "events"]
+
+THIRD_PARTY_APPS = [
+    "clickhouse_backend",
+    "drf_spectacular",
+    "drf_spectacular_sidecar",
+    "rest_framework",
+    "rest_framework.authtoken",
+    "rest_framework_jwt.blacklist",
+    "django_filters",
+    "axes",
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+]
+
+INSTALLED_APPS = APPS + THIRD_PARTY_APPS
